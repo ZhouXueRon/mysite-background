@@ -41,6 +41,7 @@
             content="github"
             placement="top"
             :hide-after="2000"
+            v-if="scope.row.github"
           >
             <el-button
               type="info"
